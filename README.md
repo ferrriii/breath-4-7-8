@@ -1,2 +1,18 @@
-# 4-7-8-breath
-an mobile app for relaxing breath to reduce anxiety or help people get to sleep
+# breath478
+an mobile app for relaxing breath to reduce anxiety or help people get to sleep.
+
+# Install
+```
+npm run install
+```
+
+# build
+```
+tns build android --release
+--key-store-path ~/path/to/key.jks
+--key-store-password my-very-secure-password
+--key-store-alias Alias
+--key-store-alias-password my-very-secure-password
+```
+
+https://www.nativescript.org/blog/steps-to-publish-your-nativescript-app-to-the-app-stores
