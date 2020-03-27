@@ -6,7 +6,7 @@ an mobile app for relaxing breath to reduce anxiety or help people get to sleep.
 npm run install
 ```
 
-# build
+# Build for Android
 ```
 tns build android --release
 --key-store-path ~/path/to/key.jks
@@ -14,5 +14,5 @@ tns build android --release
 --key-store-alias Alias
 --key-store-alias-password my-very-secure-password
 ```
-
+# Publish
 https://www.nativescript.org/blog/steps-to-publish-your-nativescript-app-to-the-app-stores
