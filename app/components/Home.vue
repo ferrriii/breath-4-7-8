@@ -8,12 +8,14 @@
       </FlexboxLayout>
       <Label class="action" :text="action" textAlignment="center" ref="action"></Label>
       <Label class="count" :text="count" key="cnt" textAlignment="center" ref="counter"></Label>
+	  <Label @tap="openHomePage" class="about" text="⌂" textAlignment="center" ref="about"></Label>
     </FlexboxLayout>
   </Page>
 </template>
 
 <script>
-  import * as app from 'tns-core-modules/application';
+  import * as app from 'tns-core-modules/application'
+  import * as utilsModule from 'tns-core-modules/utils/utils'
   export default {
     data() {
       return {
@@ -36,6 +38,9 @@
       clearInterval(this.timer)
     },
     methods: {
+      openHomePage() {
+        utilsModule.openUrl('https://git.io/JvQTM')
+	  },
       onButtonTap() {
         let srv = app.android.context.getSystemService(android.content.Context.VIBRATOR_SERVICE)
         srv.vibrate(2000)
@@ -92,7 +97,6 @@
 </script>
 
 <style scoped lang="scss">
-@import "~@nativescript/theme/scss/variables/blue";
 
 // Custom styles
 .action {
@@ -107,6 +111,11 @@
 .count {
   color: white;
   font-size: 30vmin;
+}
+  
+.about {
+  font-size: 15vmin;
+  color: white;
 }
 
 .reset {
