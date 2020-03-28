@@ -1,6 +1,11 @@
 # breath478
 an mobile app for practicing relaxing breath to reduce anxiety or help people get to sleep
 
+The 4-7-8 breathing technique, also known as “relaxing breath,” involves breathing in for 4 seconds, holding the breath for 7 seconds, and exhaling for 8 seconds.
+[Read more](https://www.medicalnewstoday.com/articles/324417)
+
+![](resources/demo.gif)
+
 # Install
 ```
 npm run install
