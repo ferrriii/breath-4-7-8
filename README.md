@@ -6,6 +6,9 @@ The 4-7-8 breathing technique, also known as “relaxing breath,” involves bre
 
 ![](resources/demo.gif)
 
+# Download
+[Version 1.0](https://github.com/ferrriii/breath-4-7-8/releases/download/v1.0/breath478.apk)
+
 # Install
 ```
 npm run install
@@ -21,3 +24,6 @@ tns build android --release
 ```
 # Publish
 https://www.nativescript.org/blog/steps-to-publish-your-nativescript-app-to-the-app-stores
+
+# License
+Apache 2.0 License
