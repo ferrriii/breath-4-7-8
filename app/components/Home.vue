@@ -39,7 +39,7 @@
     },
     methods: {
       openHomePage() {
-        utilsModule.openUrl('https://git.io/JvQTM')
+        utilsModule.openUrl('https://github.com/ferrriii/breath-4-7-8')
 	  },
       onButtonTap() {
         let srv = app.android.context.getSystemService(android.content.Context.VIBRATOR_SERVICE)
