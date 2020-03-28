@@ -1,5 +1,5 @@
 # breath478
-an mobile app for relaxing breath to reduce anxiety or help people get to sleep.
+an mobile app for practicing relaxing breath to reduce anxiety or help people get to sleep
 
 # Install
 ```

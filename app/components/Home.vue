@@ -13,6 +13,7 @@
 </template>
 
 <script>
+  import * as app from 'tns-core-modules/application';
   export default {
     data() {
       return {
