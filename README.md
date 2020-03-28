@@ -7,7 +7,7 @@ The 4-7-8 breathing technique, also known as “relaxing breath,” involves bre
 ![](resources/demo.gif)
 
 # Download
-[Version 1.0](https://github.com/ferrriii/breath-4-7-8/releases/download/v1.0/breath478.apk)
+[Version 1.0.1](https://github.com/ferrriii/breath-4-7-8/releases/download/v1.0.1/breath478.apk)
 
 # Install
 ```
