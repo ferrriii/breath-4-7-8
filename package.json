@@ -13,7 +13,7 @@
   "repository": "https://github.com/ferrriii/breath-4-7-8",
   "dependencies": {
     "@nativescript/theme": "~2.3.3",
-    "nativescript-vue": "~2.7.1",
+    "nativescript-vue": "~2.8.1",
     "tns-core-modules": "~6.5.15"
   },
   "devDependencies": {
