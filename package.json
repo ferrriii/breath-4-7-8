@@ -17,7 +17,7 @@
     "tns-core-modules": "~6.5.20"
   },
   "devDependencies": {
-    "@babel/core": "~7.11.6",
+    "@babel/core": "~7.12.1",
     "@babel/preset-env": "~7.11.5",
     "babel-loader": "~8.1.0",
     "nativescript-dev-webpack": "~1.5.1",
